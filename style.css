@@ -1,4 +1,45 @@
+
+#navBar {
+    border: 1px solid blue;
+    float: left;
+    width: 100%;
+    position: fixed;
+}
+#logo {
+    border: 1px dotted blue;
+    display: inline-block;
+    float: left;
+    margin-left: 40px;
+}
+li{
+    border: 1px dotted blue;
+    display: inline-block;
+    float: right;
+    margin-right: 40px;
+}
+#bigPic {
+    border: 1px solid red;
+    height: 400px;
+}
 h1 {
-    font-family: Verdana;
-    color: red;
+    margin-top: 200px;
+    text-align: center;
+}
+#h1Sub {
+    text-align: center;
+}
+.contentContainer {
+    margin-top: 30px;
+}
+#footer {
+    border: 1px solid yellow;
+    width: 100%;
+}
+#footerContainer {
+    border: 1px dotted orange;
+    width: 95%;
+    margin: 0 auto;
+}
+#footerText {
+    text-align: center;
 }
